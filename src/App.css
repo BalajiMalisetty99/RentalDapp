@@ -1,3 +1,4 @@
+/* General App Styling */
 .App {
   text-align: center;
 }
@@ -36,3 +37,105 @@
     transform: rotate(360deg);
   }
 }
+
+/* Specific styling for Available Houses */
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.card-button:hover {
+  background-color: #0056b3;
+}
+
+/* Navigation bar buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.nav-button {
+  text-transform: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: white;
+}
+
+.nav-button-primary {
+  background-color: #007bff;
+}
+
+.nav-button-primary:hover {
+  background-color: #0056b3;
+}
+
+.nav-button-secondary {
+  background-color: #6f42c1;
+}
+
+.nav-button-secondary:hover {
+  background-color: #5a379e;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
